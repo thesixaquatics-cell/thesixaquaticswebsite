@@ -1,7 +1,7 @@
 # Decap CMS config. Replace REPO below with your GitHub "username/repo-name".
 backend:
   name: github
-  repo: thesixaquatics/thesixaquaticswebsite 
+  repo: thesixaquatics-cell/thesixaquaticswebsite
   branch: main
 
 media_folder: img
