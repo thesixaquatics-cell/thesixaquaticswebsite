@@ -1,0 +1,257 @@
+{
+  "categories": [
+    {
+      "id": "loricariidae",
+      "title": "Loricariidae",
+      "description": "Plecos and armored catfish.",
+      "items": [
+        {
+          "name": "Green Phantom Pleco (L200)",
+          "size": "2.5-3\"",
+          "price": "$65",
+          "image": "/img/pleco-green-phantom.png",
+          "sold_out": false
+        },
+        {
+          "name": "Gold Nugget Pleco (L018)",
+          "size": "2-2.5\"",
+          "price": "$85",
+          "image": "/img/pleco-gold-nugget.png",
+          "sold_out": false
+        },
+        {
+          "name": "Blue Phantom Pleco (L128)",
+          "size": "2.5-3\"",
+          "price": "$60",
+          "image": "/img/pleco-green-phantom.png",
+          "sold_out": false
+        },
+        {
+          "name": "Albino Bristlenose Pleco",
+          "size": "1.5-2\"",
+          "price": "2/$30",
+          "image": "/img/pleco-gold-nugget.png",
+          "sold_out": true
+        }
+      ],
+      "nav_label": "Loricariidae"
+    },
+    {
+      "id": "corydoras",
+      "title": "Corydoras",
+      "description": "",
+      "items": [
+        {
+          "name": "Sterbai Cory",
+          "size": "1-1.25\"",
+          "price": "6/$50",
+          "image": "/img/cory-sterbai.png",
+          "sold_out": false
+        },
+        {
+          "name": "Panda Cory",
+          "size": "1\"",
+          "price": "6/$40",
+          "image": "/img/cory-panda.png",
+          "sold_out": false
+        },
+        {
+          "name": "Julii Cory",
+          "size": "1-1.25\"",
+          "price": "6/$45",
+          "image": "/img/cory-sterbai.png",
+          "sold_out": false
+        },
+        {
+          "name": "Melini Cory",
+          "size": "1\"",
+          "price": "6/$55",
+          "image": "/img/cory-panda.png",
+          "sold_out": true
+        }
+      ],
+      "nav_label": "Corydoras"
+    },
+    {
+      "id": "tetra",
+      "title": "Tetra / Nannostomus",
+      "description": "",
+      "items": [
+        {
+          "name": "Rummynose Tetra",
+          "size": "1\"",
+          "price": "6/$30",
+          "image": "/img/tetra-rummynose.png",
+          "sold_out": false
+        },
+        {
+          "name": "Ember Tetra",
+          "size": "0.75\"",
+          "price": "6/$25",
+          "image": "/img/tetra-rummynose.png",
+          "sold_out": false
+        },
+        {
+          "name": "Green Neon Tetra",
+          "size": "1\"",
+          "price": "6/$35",
+          "image": "/img/tetra-rummynose.png",
+          "sold_out": false
+        },
+        {
+          "name": "Diamond Tetra",
+          "size": "1.5\"",
+          "price": "6/$40",
+          "image": "/img/tetra-rummynose.png",
+          "sold_out": true
+        },
+        {
+          "name": "Threadfin Rainbow (Nannostomus)",
+          "size": "1\"",
+          "price": "pair/$25",
+          "image": "/img/tetra-rummynose.png",
+          "sold_out": false
+        }
+      ],
+      "nav_label": "Tetra"
+    },
+    {
+      "id": "rasbora",
+      "title": "Rasbora",
+      "description": "",
+      "items": [
+        {
+          "name": "Harlequin Rasbora",
+          "size": "1\"",
+          "price": "6/$30",
+          "image": "/img/rasbora-harlequin.png",
+          "sold_out": false
+        },
+        {
+          "name": "Chili Rasbora",
+          "size": "0.5\"",
+          "price": "6/$35",
+          "image": "/img/rasbora-harlequin.png",
+          "sold_out": false
+        },
+        {
+          "name": "Lambchop Rasbora",
+          "size": "1\"",
+          "price": "6/$30",
+          "image": "/img/rasbora-harlequin.png",
+          "sold_out": true
+        }
+      ],
+      "nav_label": "Rasbora"
+    },
+    {
+      "id": "rainbowfish",
+      "title": "Rainbowfish",
+      "description": "",
+      "items": [
+        {
+          "name": "Dwarf Neon Rainbow",
+          "size": "1.5\"",
+          "price": "pair/$30",
+          "image": "/img/rainbow-dwarf-neon.png",
+          "sold_out": false
+        },
+        {
+          "name": "Turquoise Rainbow",
+          "size": "2\"",
+          "price": "pair/$40",
+          "image": "/img/rainbow-dwarf-neon.png",
+          "sold_out": false
+        },
+        {
+          "name": "Sahul Rainbow",
+          "size": "2-2.5\"",
+          "price": "pair/$45",
+          "image": "/img/rainbow-dwarf-neon.png",
+          "sold_out": true
+        }
+      ],
+      "nav_label": "Rainbowfish"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "description": "",
+      "items": [
+        {
+          "name": "Kuhli Loach",
+          "size": "2-2.5\"",
+          "price": "4/$25",
+          "image": "/img/other-kuhli-loach.png",
+          "sold_out": false
+        },
+        {
+          "name": "Assassin Snail",
+          "size": "0.75\"",
+          "price": "5/$20",
+          "image": "/img/other-kuhli-loach.png",
+          "sold_out": false
+        },
+        {
+          "name": "Amano Shrimp",
+          "size": "1.5\"",
+          "price": "5/$25",
+          "image": "/img/other-kuhli-loach.png",
+          "sold_out": false
+        },
+        {
+          "name": "Golden Wonder Killifish",
+          "size": "2\"",
+          "price": "pair/$20",
+          "image": "/img/other-kuhli-loach.png",
+          "sold_out": true
+        },
+        {
+          "name": "Bumblebee Goby",
+          "size": "0.75\"",
+          "price": "4/$20",
+          "image": "/img/other-kuhli-loach.png",
+          "sold_out": false
+        }
+      ],
+      "nav_label": "Other"
+    },
+    {
+      "id": "dry-goods",
+      "title": "Dry Goods",
+      "description": "",
+      "items": [
+        {
+          "name": "Repashy Super Green Gel Food",
+          "size": "3 oz",
+          "price": "$18",
+          "image": "/img/dry-goods-flatlay.png",
+          "sold_out": false
+        },
+        {
+          "name": "Repashy Soilent Green",
+          "size": "3 oz",
+          "price": "$18",
+          "image": "/img/dry-goods-flatlay.png",
+          "sold_out": true
+        },
+        {
+          "name": "Ceramic Pleco Cave",
+          "size": "Medium",
+          "price": "$12",
+          "image": "/img/dry-goods-flatlay.png",
+          "sold_out": true
+        },
+        {
+          "name": "Indian Almond Leaves",
+          "size": "Bundle of 10",
+          "price": "$8",
+          "image": "/img/dry-goods-flatlay.png",
+          "sold_out": false
+        }
+      ],
+      "nav_label": "Dry Goods"
+    }
+  ],
+  "stock_date": "October 15, 2026"
+}

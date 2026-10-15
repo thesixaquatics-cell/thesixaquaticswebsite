@@ -1,0 +1,62 @@
+# Decap CMS config. Replace REPO below with your GitHub "username/repo-name".
+backend:
+  name: github
+  repo: Battleme54321/testingnewsite
+  branch: main
+
+media_folder: img
+public_folder: /img
+
+collections:
+  - name: site
+    label: Site
+    files:
+      - name: stock
+        label: Stock & Prices
+        file: content/stock.json
+        fields:
+          - { name: stock_date, label: "Stock 'as of' date", widget: string }
+          - name: categories
+            label: Categories
+            widget: list
+            label_singular: category
+            summary: "{{fields.title}}"
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: nav_label, label: "Short name in top menu (optional - leave blank to use the title)", widget: string, required: false }
+              - { name: description, label: Description (optional), widget: string, required: false }
+              - name: items
+                label: Items
+                widget: list
+                label_singular: item
+                summary: "{{fields.name}} — {{fields.price}}{{fields.sold_out}}"
+                fields:
+                  - { name: name, label: Name, widget: string }
+                  - { name: size, label: Size / quantity, widget: string }
+                  - { name: price, label: Price (e.g. $65 or 6/$30), widget: string }
+                  - { name: image, label: Photo, widget: image }
+                  - { name: sold_out, label: Sold out?, widget: boolean, default: false }
+      - name: settings
+        label: Text & Contact
+        file: content/settings.json
+        fields:
+          - { name: brand_first, label: Logo text (white part), widget: string }
+          - { name: brand_second, label: Logo text (teal part), widget: string }
+          - { name: email, label: Order email, widget: string }
+          - { name: instagram, label: Instagram link, widget: string }
+          - { name: facebook, label: Facebook link, widget: string }
+          - { name: logo_image, label: Logo (shown at top of page), widget: image }
+          - { name: hero_image, label: Hero photo, widget: image }
+          - { name: hero_eyebrow, label: Small text above headline, widget: string }
+          - { name: hero_title, label: Headline, widget: string }
+          - { name: hero_text, label: Intro paragraph, widget: text }
+          - name: info_cards
+            label: Delivery / shipping boxes
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: text, label: Text, widget: text }
+          - { name: stock_note, label: Note under "Current Stock", widget: string }
+          - { name: contact_title, label: Contact heading, widget: string }
+          - { name: contact_text, label: Contact paragraph, widget: text }
+          - { name: footer, label: Footer text, widget: string }
